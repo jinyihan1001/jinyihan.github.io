@@ -19,10 +19,13 @@ Background
 
 Method
 ======
+<center><img src="https://jinyihan1001.github.io/jinyihan.github.io/images/method.png" width = "1000" height = ""></center>
+<br/>
 
 Model
 ======
-
+<center><img src="https://jinyihan1001.github.io/jinyihan.github.io/images/model.png" width = "1000" height = ""></center>
+<br/>
 
 Experiment
 ======
