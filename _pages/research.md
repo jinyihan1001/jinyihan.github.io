@@ -34,9 +34,7 @@ The robotic ultrasound system enables the ultrasound probe to automatically and 
 <br/>
 <center><img src="https://jinyihan1001.github.io/jinyihan.github.io/images/scan-exper1.gif" width = "1000" height = "450"></center>
 <center>Z-shaped track, extending along the X direction</center>
-<br/>
 <center><img src="https://jinyihan1001.github.io/jinyihan.github.io/images/scan-exper2.gif" width = "1000" height = "450"></center>
 <center>Z-shaped track, extending along the Y direction</center>
-<br/>
 <center><img src="https://jinyihan1001.github.io/jinyihan.github.io/images/scan-exper3.gif" width = "1000" height = "450"></center>
 <center>Optimized track, extending along the phantom</center>
