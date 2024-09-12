@@ -43,4 +43,7 @@
 
 .justify-text {
     text-align: justify;
+    color: inherit;
+    text-decoration: underline;
+    pointer-events: auto;
 }
