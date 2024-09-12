@@ -11,9 +11,11 @@ redirect_from:
 
 1.Machine Tool Intelligent Maintenance System (Shanghai Jiao Tong University)
 ======
+<br/>
 
 2.Robotic Ultrasound Imaging (The University of Hong Kong)
 ======
+<br/>
 
 Background
 ======
