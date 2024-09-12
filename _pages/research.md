@@ -26,8 +26,9 @@ Model
 
 Experiment
 ======
-<center><img src="https://jinyihan1001.github.io/jinyihan.github.io/images/fig.png" width = "1000" height = "450"></center>
-
+<center><img src="https://jinyihan1001.github.io/jinyihan.github.io/images/experiment.png" width = "1000" height = ""></center>
+<br/>
+<center><img src="https://jinyihan1001.github.io/jinyihan.github.io/images/fig.png" width = "1000" height = ""></center>
 <br/>
 
 2.Robotic Ultrasound Imaging (The University of Hong Kong)
