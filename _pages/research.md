@@ -23,8 +23,10 @@ Method
 Model
 ======
 
+
 Experiment
 ======
+<center><img src="https://jinyihan1001.github.io/jinyihan.github.io/images/fig.png" width = "1000" height = "450"></center>
 
 <br/>
 
