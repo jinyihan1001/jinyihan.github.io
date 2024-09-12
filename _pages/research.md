@@ -28,7 +28,7 @@ The robotic ultrasound system is designed with a custom-built slide platform bas
 Three automatic scanning experiments
 ======
 The robotic ultrasound system enables the ultrasound probe to automatically and continuously perform B-mode scanning along predefined trajectories. The custom-built probe is equipped with 64 transducers, and real-time B-mode images are captured using a CEPHASONICS acquisition module, generating IQ data. Simultaneously, the microcontroller provides real-time feedback on the probe’s position. Three experiments were conducted, scanning a vascular phantom along different trajectories. By processing the collected IQ data in MATLAB, real-time ultrasound images were obtained, demonstrating the system’s effectiveness in automated scanning and data acquisition.
-<center><img src="https://jinyihan1001.github.io/jinyihan.github.io/images/scan-exper1.gif" width = "" height = ""></center>
+<center><img src="https://jinyihan1001.github.io/jinyihan.github.io/images/scan-exper1.gif" width = "1000" height = "450"></center>
 <center>Z-shaped track, extending along the X direction</center>
 <center><img src="https://jinyihan1001.github.io/jinyihan.github.io/images/scan-exper2.gif" width = "" height = ""></center>
 <center>Z-shaped track, extending along the Y direction</center>
