@@ -24,3 +24,13 @@ Build a robotic ultrasound imaging System
 ======
 The robotic ultrasound system is designed with a custom-built slide platform based on synchronized conveyor belts, enabling precise movement of the ultrasound probe. Developed using the STM32 microcontroller, the control algorithm allows the probe to move freely along the X, Y, and Z axes. The system calculates real-time position data based on motor characteristics, ensuring accurate control and feedback. This setup provides a robust and flexible solution for automated probe positioning, essential for applications in medical imaging and robotic-assisted diagnostics.
 <center><img src="https://jinyihan1001.github.io/jinyihan.github.io/images/system.png" width = "" height = ""></center>
+
+Three automatic scanning experiments
+======
+The robotic ultrasound system enables the ultrasound probe to automatically and continuously perform B-mode scanning along predefined trajectories. The custom-built probe is equipped with 64 transducers, and real-time B-mode images are captured using a CEPHASONICS acquisition module, generating IQ data. Simultaneously, the microcontroller provides real-time feedback on the probe’s position. Three experiments were conducted, scanning a vascular phantom along different trajectories. By processing the collected IQ data in MATLAB, real-time ultrasound images were obtained, demonstrating the system’s effectiveness in automated scanning and data acquisition.
+<center><img src="https://jinyihan1001.github.io/jinyihan.github.io/images/scan-exper1.gif" width = "" height = ""></center>
+<center>Z-shaped track, extending along the X direction</center>
+<center><img src="https://jinyihan1001.github.io/jinyihan.github.io/images/scan-exper2.gif" width = "" height = ""></center>
+<center>Z-shaped track, extending along the Y direction</center>
+<center><img src="https://jinyihan1001.github.io/jinyihan.github.io/images/scan-exper3.gif" width = "" height = ""></center>
+<center>Optimized track, extending along the phantom</center>
