@@ -31,6 +31,9 @@ Experiment
 ======
 <center><img src="https://jinyihan1001.github.io/jinyihan.github.io/images/experiment.png" width = "1000" height = ""></center>
 <br/>
+
+Result
+======
 <center><img src="https://jinyihan1001.github.io/jinyihan.github.io/images/fig.png" width = "1000" height = ""></center>
 <br/>
 
