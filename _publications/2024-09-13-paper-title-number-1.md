@@ -1,7 +1,7 @@
 ---
 title: "Online Monitoring Method for Milling Chatter Based on Multi-Channel Parellel Convolutional Neural Networks and Attention Mechanisms"
 collection: publications
-category: conferences
+category: manuscripts
 permalink: /publication/2024-09-13-paper-title-number-1
 excerpt: 'This paper leverages MC-CNN and ECA to automatically extract and integrate signal features from multiple sensors.'
 date: 2024-09-13
