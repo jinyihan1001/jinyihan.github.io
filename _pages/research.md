@@ -16,26 +16,47 @@ redirect_from:
 
 Background
 ======
+Tool wear is a critical issue in machining processes, with significant implications for both production quality and efficiency. As tools wear down, they can cause increased friction, higher cutting forces, and poor surface finishes, all of which negatively impact the precision and durability of machined parts. In severe cases, excessive tool wear may lead to tool failure, resulting in costly downtime and potential damage to the workpiece. Given the unpredictability and time-varying nature of tool wear, real-time monitoring is essential to prevent these negative effects. Traditional approaches often rely on offline inspection methods that involve analyzing wear marks on tools and workpieces after machining has stopped. These methods not only lack efficiency but also fail to provide timely feedback during operation. Therefore, research into real-time tool wear monitoring is crucial for ensuring machining quality and enhancing operational efficiency. Conventional methods often depend on manually defined thresholds, which require extensive experimentation to establish and may not generalize across varying conditions, limiting their practical application. Consequently, more advanced, data-driven techniques for online monitoring are needed to overcome these challenges.
 
 Method
 ======
-<center><img src="https://jinyihan1001.github.io/jinyihan.github.io/images/method.png" width = "1000" height = ""></center>
+To address the challenges of tool wear monitoring, this research proposes an online monitoring method based on a Multi-Channel Parallel Convolutional Neural Network (MC-CNN) combined with an attention mechanism. The MC-CNN is employed to automatically extract feature parameters from time-domain signals, leveraging the network’s ability to capture local features and share weights globally, which enhances the model's generalization capability. Additionally, a channel-based attention mechanism (ECA) is introduced to dynamically adjust the weights within the feature matrix. This approach effectively reduces the impact of redundant information, improves the identification of critical features, and increases computational efficiency.
 <br/>
+<center><img src="https://jinyihan1001.github.io/jinyihan.github.io/images/method.png" width = "1000" height = ""></center>
 
 Model
 ======
-<center><img src="https://jinyihan1001.github.io/jinyihan.github.io/images/model.png" width = "1000" height = ""></center>
+The proposed model, built using PyTorch, consists of three primary stages: Multi-Channel Parallel Convolutional Neural Networks (MC-CNN), an Efficient Channel Attention (ECA) mechanism, and a final Convolutional Neural Network (CNN) classification block.
+
+First, multi-channel sensor inputs are processed through the MC-CNN, which extracts critical features from the signals using two convolutional layers, each followed by max pooling layers to reduce the dimensionality while preserving important information. The ECA mechanism is then applied to the feature matrix, incorporating an average pooling layer to dynamically adjust the channel weights, enhancing the model's ability to focus on relevant features while minimizing redundant information.
+
+Finally, the refined feature maps pass through additional convolutional layers in the CNN, with max pooling operations for further abstraction. After flattening the data, two fully connected linear layers are used to perform the final classification, categorizing the machining state into one of three categories: Stable, Slight, or Chatter. This architecture improves computational efficiency and increases the accuracy of chatter detection.
 <br/>
+<center><img src="https://jinyihan1001.github.io/jinyihan.github.io/images/model.png" width = "1000" height = ""></center>
 
 Experiment
 ======
-<center><img src="https://jinyihan1001.github.io/jinyihan.github.io/images/experiment.png" width = "1000" height = ""></center>
+To validate the performance of the proposed model, an experimental platform was established on a horizontal machining center, and data were collected during the milling process to construct the experimental dataset. A real-time vibration signal acquisition system was set up on the machine tool to capture multi-source input signals throughout the milling operations. A total of 21 accelerometers were installed on the bearing seats, motor seats, and the spindle of the machine's X, Y, and Z axes. These sensors transmitted data to a collection terminal via a high-performance dynamic signal testing and analysis system.
+
+During the experiment, each milling pass was conducted with the same spindle speed and feed rate, but the depth of cut was varied. After each pass, surface roughness measurements were taken, and vibration marks were observed. To ensure accuracy, surface roughness was measured three times per pass to obtain an average value, which was then used to comprehensively assess the level of chatter during the milling process. The milling stability was classified into three levels: Stable, Slight Chatter, and Severe Chatter. The evaluation of the chatter level took into account both surface roughness and vibration patterns. The surface roughness (Ra, in μm) was measured using a Mitutoyo SJ210 surface roughness tester. Based on the distribution of surface roughness at different chatter levels, the following standards were established: 
+
+* When Ra < 1.6 μm and no noticeable vibration marks were present on the workpiece, the milling process was considered stable.
+* When 1.6 μm ≤ Ra < 2.0 μm and vibration marks began to appear, the process was classified as experiencing slight chatter.
+* When Ra > 2.0 μm and significant vibration marks were present, the process was classified as chatter. 
+
+These evaluations were used to classify the stability of the milling process and validate the effectiveness of the proposed model.
 <br/>
+<center><img src="https://jinyihan1001.github.io/jinyihan.github.io/images/experiment.png" width = "1000" height = ""></center>
 
 Result
 ======
+In the experiment, a neural network model was constructed using the PyTorch deep learning framework in Python. The input parameters of the model include 21 channels, a single-channel data length of 20,000, and 3 classification categories. During the model training process, the batch size of the training data was set to 32, and the Adam optimizer was used with a learning rate of 0.0001. A weight decay of 0.00001 was applied to prevent overfitting. The model was trained for 1,000 epochs, and the loss function used was cross-entropy.
+
+To validate the effectiveness of the proposed Multi-Channel Parallel Convolutional Neural Network (MC-CNN) and the Efficient Channel Attention (ECA) module, ablation experiments were conducted. These experiments compared the performance of several network configurations: a network with both the ECA and MC-CNN modules, a network without the ECA module, a network without the MC-CNN module, and a network without both the ECA and MC-CNN modules. All networks were evaluated using the same training and testing datasets to ensure fair comparisons.
+<br/>
 <center><img src="https://jinyihan1001.github.io/jinyihan.github.io/images/fig.png" width = "1000" height = ""></center>
 <br/>
+Observing the accuracy curves, it was noted that the network employing both the MC-CNN for multi-channel parallel feature extraction and the CNN classification module improved classification accuracy by 0.87% compared to the baseline model using only the CNN classification module. Additionally, the network with MC-CNN reached a stable state within 165 iterations. Furthermore, when the ECA module was introduced alongside the MC-CNN, the recognition accuracy of the model further increased to 99.62%, and the convergence speed significantly improved, requiring only 97 iterations to reach a stable state.
 
 2.Robotic Ultrasound Imaging (The University of Hong Kong)
 ======
