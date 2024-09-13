@@ -21,3 +21,6 @@ Research Interest
 * Robotic Ultrasound Imaging
 * Structural Simulation and Optimization
 * Reinforcement Learning
+
+News
+======
