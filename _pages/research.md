@@ -11,7 +11,7 @@ redirect_from:
 
 <br/>
 
-1.Machine Tool Intelligent Maintenance System (Shanghai Jiao Tong University)
+1.Machine Tool Intelligent Maintenance System (in SJTU)
 ======
 
 Background
@@ -56,7 +56,7 @@ To validate the effectiveness of the proposed Multi-Channel Parallel Convolution
 <br/>
 Observing the accuracy curves, it was noted that the network employing both the MC-CNN for multi-channel parallel feature extraction and the CNN classification module improved classification accuracy by 0.87% compared to the baseline model using only the CNN classification module. Additionally, the network with MC-CNN reached a stable state within 165 iterations. Furthermore, when the ECA module was introduced alongside the MC-CNN, the recognition accuracy of the model further increased to 99.62%, and the convergence speed significantly improved, requiring only 97 iterations to reach a stable state.
 
-2.Robotic Ultrasound Imaging (The University of Hong Kong)
+2.Robotic Ultrasound Imaging (in HKU)
 ======
 
 Background
