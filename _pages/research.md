@@ -9,8 +9,6 @@ redirect_from:
 
 {% include base_path %}
 
-<br/>
-
 1.Machine Tool Intelligent Maintenance System (in SJTU)
 ======
 
