@@ -3,7 +3,7 @@ title: "Online Monitoring Method for Milling Chatter Based on Multi-Channel Pare
 collection: publications
 category: conferences
 permalink: /publication/2024-09-13-paper-title-number-1
-excerpt: 'This paper leverages MC-CNN and ECA to automatically extract and integrate signal features from multiple sensors, reducing human intervention and further enhancing the model's ability to identify key features by dynamically adjusting feature weights.'
+excerpt: 'This paper leverages MC-CNN and ECA to automatically extract and integrate signal features from multiple sensors.'
 date: 2024-02-17
 venue: 'GitHub Journal of Bugs'
 paperurl: 'http://academicpages.github.io/files/paper3.pdf'
