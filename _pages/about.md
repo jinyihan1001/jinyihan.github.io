@@ -26,17 +26,13 @@ News
 ======
 
 In Tsim Sha Tsui, Hong Kong, Yihan Jin visited the "TAN KAH KEE" research vessel with Professor Fang's group.
-======
 <center><img src="https://jinyihan1001.github.io/jinyihan.github.io/images/hezhao1.jpg" width = "" height = ""></center>
 
 In HKU, Hong Kong, Yihan Jin with Dr. Erqian Dong.
-======
 <center><img src="https://jinyihan1001.github.io/jinyihan.github.io/images/hezhao2.jpg" width = "" height = ""></center>
 
 In Zhuzhou, Yihan Jin introduced the intelligent maintenance system.
-======
 <center><img src="https://jinyihan1001.github.io/jinyihan.github.io/images/hezhao3.jpg" width = "" height = ""></center>
 
 In SJTU, Shanghai, Yihan Jin celebrated the graduation of Chen Wang and Kuan Liu with Professor Zhou's group.
-======
 <center><img src="https://jinyihan1001.github.io/jinyihan.github.io/images/hezhao4.jpg" width = "" height = ""></center>
