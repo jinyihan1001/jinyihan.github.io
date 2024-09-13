@@ -51,8 +51,8 @@ In the experiment, a neural network model was constructed using the PyTorch deep
 To validate the effectiveness of the proposed Multi-Channel Parallel Convolutional Neural Network (MC-CNN) and the Efficient Channel Attention (ECA) module, ablation experiments were conducted. These experiments compared the performance of several network configurations: a network with both the ECA and MC-CNN modules, a network without the ECA module, a network without the MC-CNN module, and a network without both the ECA and MC-CNN modules. All networks were evaluated using the same training and testing datasets to ensure fair comparisons.
 <br/>
 <center><img src="https://jinyihan1001.github.io/jinyihan.github.io/images/fig.png" width = "1000" height = ""></center>
-<br/>
 Observing the accuracy curves, it was noted that the network employing both the MC-CNN for multi-channel parallel feature extraction and the CNN classification module improved classification accuracy by 0.87% compared to the baseline model using only the CNN classification module. Additionally, the network with MC-CNN reached a stable state within 165 iterations. Furthermore, when the ECA module was introduced alongside the MC-CNN, the recognition accuracy of the model further increased to 99.62%, and the convergence speed significantly improved, requiring only 97 iterations to reach a stable state.
+<br/>
 
 2.Robotic Ultrasound Imaging (in HKU)
 ======
