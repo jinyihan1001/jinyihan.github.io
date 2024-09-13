@@ -42,9 +42,7 @@ During the experiment, each milling pass was conducted with the same spindle spe
 
 * When Ra < 1.6 μm and no noticeable vibration marks were present on the workpiece, the milling process was considered stable.
 * When 1.6 μm ≤ Ra < 2.0 μm and vibration marks began to appear, the process was classified as experiencing slight chatter.
-* When Ra > 2.0 μm and significant vibration marks were present, the process was classified as chatter. 
-
-These evaluations were used to classify the stability of the milling process and validate the effectiveness of the proposed model.
+* When Ra > 2.0 μm and significant vibration marks were present, the process was classified as chatter.
 <br/>
 <center><img src="https://jinyihan1001.github.io/jinyihan.github.io/images/experiment.png" width = "1000" height = ""></center>
 
