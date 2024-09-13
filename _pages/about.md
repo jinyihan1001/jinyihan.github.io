@@ -29,7 +29,7 @@ In Tsim Sha Tsui, Hong Kong, Yihan Jin visited the "TAN KAH KEE" research vessel
 ======
 <center><img src="https://jinyihan1001.github.io/jinyihan.github.io/images/hezhao1.jpg" width = "" height = ""></center>
 
-In HKU, Hong Kong, Yihan Jin with Dr.Erqian Dong.
+In HKU, Hong Kong, Yihan Jin with Dr. Erqian Dong.
 ======
 <center><img src="https://jinyihan1001.github.io/jinyihan.github.io/images/hezhao2.jpg" width = "" height = ""></center>
 
