@@ -6,7 +6,7 @@ permalink: /publication/2024-09-13-paper-title-number-1
 excerpt: 'This paper leverages MC-CNN and ECA to automatically extract and integrate signal features from multiple sensors.'
 date: 2024-09-13
 venue: 'September 13'
-paperurl: 'http://jinyihan.github.io/files/Online-Monitoring-Method-for-Milling-Chatter-Based-on-Multi-Channel-Parellel-Convolutional-Neural-Networks-and-Attention-Mechanisms.pdf'
+paperurl: 'http://jinyihan.github.io/jinyihan1001.github.io/files/Online-Monitoring-Method-for-Milling-Chatter-Based-on-Multi-Channel-Parellel-Convolutional-Neural-Networks-and-Attention-Mechanisms.pdf'
 citation: 'Jin Yihan, Wei Chuang, Tang Yuzhe, et al. Online Monitoring Method for Milling Chatter Based on Multi-Channel Parellel Convolutional Neural Networks and Attention Mechanisms[J]. Machine Design & Research.(Accepted)'
 ---
 
