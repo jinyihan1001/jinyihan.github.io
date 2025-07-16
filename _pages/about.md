@@ -16,15 +16,15 @@ Yihan’s academic career includes diverse interdisciplinary projects, such as d
 
 Research Interest
 ======
+* Robotic Ultrasound Imaging
 * Machine Tool Monitoring and Maintenance
 * Machine Learning
-* Robotic Ultrasound Imaging
 * Structural Simulation and Optimization
 * Reinforcement Learning
 
 News
 ======
-
+Yihan Jin is going to join Professor Fang's group as a PhD student!
 In Tsim Sha Tsui, Hong Kong, Yihan Jin visited the "TAN KAH KEE" research vessel with Professor Fang's group.
 <center><img src="https://jinyihan1001.github.io/jinyihan.github.io/images/hezhao1.jpg" width = "" height = ""></center>
 <br/>
