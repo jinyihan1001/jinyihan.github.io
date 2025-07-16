@@ -25,6 +25,7 @@ Research Interest
 News
 ======
 Yihan Jin is going to join Professor Fang's group as a PhD student!
+<br/>
 In Tsim Sha Tsui, Hong Kong, Yihan Jin visited the "TAN KAH KEE" research vessel with Professor Fang's group.
 <center><img src="https://jinyihan1001.github.io/jinyihan.github.io/images/hezhao1.jpg" width = "" height = ""></center>
 <br/>
